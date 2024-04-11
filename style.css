@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 3em;
+  background-color: #f4f4f4;
+}
+
+#meme {
+  background-image: url("assets/escobar_meme.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50%;
+  max-width: 400px;
+}
+
+#counter {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; */
+  font-size: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: transparent;
+}
